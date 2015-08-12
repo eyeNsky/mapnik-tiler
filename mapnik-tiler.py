@@ -66,17 +66,7 @@ try :
     zMin = args.get('--z-min')
     zMax = args.get('--z-max')
     p = args.get('--p')
-    #xMin = args.get('--x-min')
-    #xMax = args.get('--x-max')
-    #yMin = args.get('--y-min')
-    #yMax = args.get('--y-max')
     b_box = args.get('--bbox')
-    #print args.get('--image-in')
-    #print  args.get('--tile-dir')
-    #print  args.get('--z-min')
-    #print  args.get('--z-max')
-    #print  args.get('--bbox')
-
 
 except:
     print USAGE
