@@ -185,7 +185,7 @@ body { margin:0; padding:0; }
       var mqOAM = new L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg",{
           type: 'base', 
           tileSize:256, 
-          minZoom: 10, 
+          minZoom: 0, 
           maxZoom: 18,
           attribution:'Tiles Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">',
           subdomains: ['otile1','otile2','otile3','otile4']
